@@ -1,3 +1,5 @@
+setTimeout(function(){ 
+
 var sum = 0;
 var prodDay = $(".inout-table tr:not('.disable-listing') span.text-purpule").length;
 prodDay *= 9;
@@ -12,3 +14,7 @@ var diffHr = actualHr - prodDay;
 var Hrs = Math.trunc(diffHr);
 var mins = parseInt((Math.abs(diffHr - Hrs) * 60).toFixed(0));
 swal(Hrs+' '+mins);
+
+
+}, 3000);
+
