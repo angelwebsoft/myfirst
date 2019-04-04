@@ -1,4 +1,4 @@
-$('body').click(function(){
+
 
 var sum = 0;
 var prodDay = $(".inout-table tr:not('.disable-listing') span.text-purpule").length;
@@ -16,7 +16,7 @@ var mins = parseInt((Math.abs(diffHr - Hrs) * 60).toFixed(0));
 swal(Hrs+' '+mins);
 console.log(Hrs+' '+mins);
 
-})
+
 
 
 
